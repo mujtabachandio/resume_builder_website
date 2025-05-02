@@ -42,17 +42,6 @@ export default function Footer() {
                 align={{ base: 'center', md: 'center' }}>
                 <Image style={{ height: '44px' }} src={logo} alt="logo" />
                 <Text>© 2023 Resume Builder, All rights reserved</Text>
-                <Stack direction={'row'} spacing={6}>
-                    <SocialButton label={'Github'} href={'https://github.com/imhardikdesai'}>
-                        <FaGithub />
-                    </SocialButton>
-                    <SocialButton label={'Snapchat'} href={'https://twitter.com/imhardikdesai'}>
-                        <FaSnapchat />
-                    </SocialButton>
-                    <SocialButton label={'Instagram'} href={'https://instagram.com/imhardikdesai'}>
-                        <FaInstagram />
-                    </SocialButton>
-                </Stack>
             </Container>
         </Box>
     );
